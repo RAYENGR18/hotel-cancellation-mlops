@@ -1,0 +1,22 @@
+schema: '2.0'
+stages:
+  prepare:
+    cmd: python -m src.data.make_dataset
+    deps:
+    - path: data/raw/hotel_bookings.csv
+      hash: md5
+      md5: 5bf588c5a949443e021fb7c847d31b27
+      size: 16855599
+    - path: src/data/make_dataset.py
+      hash: md5
+      md5: 6eb88e7b7593b8deab97dd559621e2f2
+      size: 3882
+    outs:
+    - path: data/processed/production.csv
+      hash: md5
+      md5: cd99cc12f5c138ce0e25f749e3c0ac1f
+      size: 4547316
+    - path: data/processed/train.csv
+      hash: md5
+      md5: 91cc07aeca9a97e19b674ea9c66c21f0
+      size: 8970952

@@ -44,7 +44,7 @@ poetry run pytest       # lance les tests
 ## État d'avancement
 
 - [x] Structure du projet et fiche de cadrage
-- [ ] Dataset suivi par DVC et étape de préparation des données
+- [x] Dataset suivi par DVC et étape de préparation des données
 - [ ] Entraînement et suivi des modèles avec MLflow
 - [ ] API FastAPI et image Docker
 - [ ] Intégration continue GitHub Actions et rapports CML

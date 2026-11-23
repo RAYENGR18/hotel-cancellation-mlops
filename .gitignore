@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Outils MLOps
+mlruns/
+
+# Système et éditeur
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
